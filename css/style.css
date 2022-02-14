@@ -28,10 +28,20 @@ nav li a {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
+header{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+    padding-left:140px;
+    width: 100%;
+  
+}
 /* banner */
 .banner {
   width: 100%;
-  margin-top: 24px;
+  margin-top: 120px;
 }
 
 .position {
