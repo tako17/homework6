@@ -155,12 +155,68 @@ nav li a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.black{
+.black {
+  margin-top: 134px;
+  background-color: #181c28;
+  width: 100%;
+  height: 266px;
+  margin-bottom: 82px;
+}
 
+.footer div {
+  float: left;
+  margin-right: 198px;
+}
+.footer div:last-child {
+  margin-right: 0;
+  float: right;
+}
+.footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.footer h2 {
+  font-size: 24px;
+  color: #282828;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
 
-    margin-top: 134px;
-    background-color: #181C28;
-    width:100%;
-    height: 266px;
-    margin-bottom: 82px;
+.footer a {
+  font-size: 16px;
+  color: #7b7b7b;
+  font-family: "Poppins", sans-serif;
+
+  margin-bottom: 16px;
+  line-height: 36px;
+}
+.last li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.last {
+  text-align: right;
+}
+footer p {
+  float: right;
+  color: #a4a4a4;
+  font-size: 16px;
+  line-height: 36px;
+  font-family: "Poppins", sans-serif;
+}
+.cl::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+span::after{
+    content: ' \00A9';
+}
+.cl{
+   margin-top: 53px;
+    margin-bottom: 137px;
 }
